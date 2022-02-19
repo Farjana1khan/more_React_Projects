@@ -6,6 +6,7 @@ return(
       <>
       {people.map((person) =>{
             //const {id, name, age, image} = person;
+            // we can use this also instead of give person 
             return (
               <article key={person.id} className="person">
                 <img src={person.image} alt={person.name} />
